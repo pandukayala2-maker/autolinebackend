@@ -21,7 +21,7 @@ class MongoConnection {
                 serverSelectionTimeoutMS: 5000,
                 socketTimeoutMS: 45000
             });
-            logger.info('MongoDB connection established successfully');
+            logger.info('MongodB connection established successfully');
         } catch (error) {
             logger.error('Failed to establish MongoDB connection:', error);
             throw error;
